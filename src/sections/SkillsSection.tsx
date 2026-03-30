@@ -49,7 +49,7 @@ export function SkillsSection() {
   const [expandedId, setExpandedId] = useState(skillCategories[0]?.id ?? '')
 
   return (
-    <section id="skils" className="py-16 md:py-24" style={{ backgroundColor: '#FFF0C4' }}>
+    <section id="skills" className="py-16 md:py-24" style={{ backgroundColor: '#FFF0C4' }}>
       <Container>
         <div className="space-y-8 md:space-y-10">
           <div className="space-y-4">
